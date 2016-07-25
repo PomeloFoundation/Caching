@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0-alpha1-*",
+  "version": "1.0.0-prerelease-20160726",
   "description": "Distributed cache implementation of Microsoft.Extensions.Caching.Distributed.IDistributedCache using Redis.",
   "packOptions": {
     "repository": {
@@ -12,18 +12,10 @@
       "redis"
     ]
   },
-  "buildOptions": {
-    "warningsAsErrors": true,
-    "keyFile": "../../tools/Key.snk",
-    "nowarn": [
-      "CS1591"
-    ],
-    "xmlDoc": true
-  },
   "dependencies": {
-    "Microsoft.Extensions.Caching.Abstractions": "1.1.0-*",
-    "Microsoft.Extensions.Options": "1.1.0-*",
-    "StackExchange.Redis.StrongName": "1.0.333"
+    "Microsoft.Extensions.Caching.Abstractions": "1.0.0",
+    "Microsoft.Extensions.Options": "1.0.0",
+    "Pomelo.Redis": "1.0.0-prerelease-20160726"
   },
   "frameworks": {
     "net451": {
@@ -32,6 +24,16 @@
           "type": "build"
         }
       }
+    },
+    "netstandard1.6": {
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      },
+      "imports": [
+        "dotnet5.6",
+        "dnxcore50",
+        "portable-net45+win8"
+      ]
     }
   }
 }

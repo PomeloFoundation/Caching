@@ -3,9 +3,17 @@
     "emitEntryPoint": true
   },
   "dependencies": {
-    "Microsoft.Extensions.Caching.Redis": "1.1.0-*"
+    "Pomelo.Extensions.Caching.Redis": "1.0.0-prerelease-20160726"
   },
   "frameworks": {
-    "net451": {}
+    "net451": {},
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0",
+          "type": "platform"
+        }
+      }
+    }
   }
 }

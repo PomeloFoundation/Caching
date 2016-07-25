@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "Pomelo.AspNetCore.Testing": "1.0.0-prerelease-20160726",
+    "Pomelo.Extensions.Caching.Redis": "1.0.0-prerelease-20160726",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0",
+    "Moq": "4.6.36-alpha",
+    "xunit": "2.2.0-*"
+  },
+  "testRunner": "xunit",
+  "frameworks": {
+    "net451": {},
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0",
+          "type": "platform"
+        }
+      }
+    }
+  }
+}
