@@ -6,7 +6,7 @@ using System.Threading;
 using Microsoft.Extensions.Caching.Distributed;
 using Xunit;
 
-namespace Microsoft.Extensions.Caching.Redis
+namespace Pomelo.Extensions.Caching.Redis
 {
     // TODO: Disabled due to CI failure
     // These tests require Redis server to be started on the machine. Make sure to change the value of

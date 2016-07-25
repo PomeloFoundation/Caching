@@ -8,7 +8,7 @@
 
 // TODO: Disabled due to CI failures. [assembly: TestFramework("Microsoft.Extensions.Cache.Redis.RedisXunitTestFramework", "Microsoft.Extensions.Cache.Redis.Tests")]
 
-//namespace Microsoft.Extensions.Caching.Redis
+//namespace Pomelo.Extensions.Caching.Redis
 //{
 //    public class RedisXunitTestFramework : XunitTestFramework
 //    {

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading;
 using Microsoft.Extensions.Caching.Distributed;
 
-namespace Microsoft.Extensions.Caching.Redis
+namespace Pomelo.Extensions.Caching.Redis
 {
     public static class RedisTestConfig
     {

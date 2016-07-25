@@ -3,7 +3,7 @@
 
 using Microsoft.Extensions.Options;
 
-namespace Microsoft.Extensions.Caching.Redis
+namespace Pomelo.Extensions.Caching.Redis
 {
     /// <summary>
     /// Configuration options for <see cref="RedisCache"/>.

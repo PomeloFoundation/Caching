@@ -5,9 +5,9 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Options;
-using StackExchange.Redis;
+using Pomelo.Redis;
 
-namespace Microsoft.Extensions.Caching.Redis
+namespace Pomelo.Extensions.Caching.Redis
 {
     public class RedisCache : IDistributedCache, IDisposable
     {

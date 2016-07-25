@@ -15,7 +15,7 @@
   "dependencies": {
     "Microsoft.Extensions.Caching.Abstractions": "1.0.0",
     "Microsoft.Extensions.Options": "1.0.0",
-    "Pomelo.Redis": "1.0.0-prerelease-20160726"
+    "Pomelo.Redis.StrongName": "1.0.0-prerelease-20160726"
   },
   "frameworks": {
     "net451": {

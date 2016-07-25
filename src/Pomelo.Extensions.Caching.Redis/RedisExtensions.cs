@@ -2,9 +2,9 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System.Threading.Tasks;
-using StackExchange.Redis;
+using Pomelo.Redis;
 
-namespace Microsoft.Extensions.Caching.Redis
+namespace Pomelo.Extensions.Caching.Redis
 {
     internal static class RedisExtensions
     {
