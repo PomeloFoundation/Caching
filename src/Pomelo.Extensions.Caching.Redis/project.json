@@ -1,21 +1,21 @@
 {
-  "version": "1.0.0-prerelease-20160726",
-  "description": "Distributed cache implementation of Microsoft.Extensions.Caching.Distributed.IDistributedCache using Redis.",
+  "version": "1.0.0-*",
+
   "packOptions": {
+    "authors": [ "Amamiya Yuuko" ],
+    "description": "Distributed cache implementation of Microsoft.Extensions.Caching.Distributed.IDistributedCache using Redis.",
+    "projectUrl": "https://github.com/PomeloFoundation/Caching-Redis",
+    "iconUrl": "http://www.1234.sh/assets/Shared/pomelofoundation.png",
+    "licenseUrl": "https://github.com/PomeloFoundation/Caching-Redis/blob/master/LICENSE",
     "repository": {
       "type": "git",
-      "url": "https://github.com/aspnet/caching"
-    },
-    "tags": [
-      "cache",
-      "distributedcache",
-      "redis"
-    ]
+      "url": "git://github.com/pomelofoundation/caching-redis"
+    }
   },
   "dependencies": {
     "Microsoft.Extensions.Caching.Abstractions": "1.0.0",
     "Microsoft.Extensions.Options": "1.0.0",
-    "Pomelo.Redis.StrongName": "1.0.0-prerelease-20160726"
+    "Pomelo.Redis.StrongName": "1.0.0-*"
   },
   "frameworks": {
     "net451": {
